@@ -23,4 +23,7 @@ urlpatterns = [
     path('display_topics/',display_topics,name='display_topics'),
     path('webpage/',webpage,name='webpage'),
     path('access_record/',access_record,name='access_record'),
+    path('insert_topics/',insert_topics,name='insert_topics'),
+    path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('insert_accessrecord/',insert_accessrecord,name='insert_accessrecord'),
 ]
